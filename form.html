@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon (2).ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Служба бархатных котят</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Вступай в ряды котиков</h1>
+        <div><audio src="/images/The_Kiffness_-_Alugalug_Cat_72995859.mp3" controls class="audio"></audio>
+            <div class="images"></div>
+        </div>
+        <div>
+            <form action="#" method="get">
+                <div>
+                    <fieldset>
+                        <legend>Личная информация</legend>
+                        <label for="username">Введите ваше имя</label>
+                        <input type="text" name="username" id="username" placeholder="Введите ваше имя" required
+                            tabindex="1">
+                        <br>
+                        <label for="usermail">Введите вашу почту</label>
+                        <input type="email" name="usermail" id="usermail" placeholder="example@gmail.com" tabindex="2">
+                        <br>
+                        <label for="password">Введите ваш пароль</label>
+                        <input type="password" name="password" id="password">
+                        <br>
+                        <label for="age">Дата рождения</label>
+                        <input type="date" name="age" id="age">
+                        <br>
+                        <label for="avatar">Аватарка</label>
+                        <input type="file" name="avatar" id="avatar">
+                        <br>
+                        <legend>Ваш пол</legend>
+                        <label for="avatar">Мужской</label>
+                        <input type="radio" name="mail" id="male">
+
+                        <label for="avatar">Женский</label>
+                        <input type="radio" name="femail" id="female" checked>
+                    </fieldset>
+                    <div>
+                        <fieldset>
+                            <legend>Ваши навыки</legend>
+                            <p>Ваши увлечения</p>
+                            <label for="it">It</label>
+                            <input type="checkbox" name="int" id="it">
+
+                            <label for="sport">Sport</label>
+                            <input type="checkbox" name="int" id="sport">
+
+                            <label for="draw">Draw</label>
+                            <input type="checkbox" name="int" id="draw">
+                            <br>
+                            <label for="about">Напишите о себе</label>
+                            <textarea name="about" id="about" cols="20" rows="3"></textarea>
+                            <br>
+                            <label for="skills">Навыки</label>
+                            <select name="skills" id="skills" multiple>
+                                <option value="JS">JS</option>
+                                <option value="Html">Html</option>
+                                <option value="React">React</option>
+                            </select>
+                        </fieldset>
+                    </div>
+                </div>
+        </div>
+        <div>
+            <button type="submit" class="button">Отправить</button>
+            <button type="reset" class="button">Очистить</button>
+        </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

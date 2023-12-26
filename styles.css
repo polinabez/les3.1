@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.header video {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.content {
+  z-index: 1;
+  width: 100%;
+  color: wheat;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+  margin-top: 30px;
+  padding: 15px;
+  display: flex;
+  gap: 30px;
+}
+
+.images {
+  border: 2px solid gray;
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgb(134, 134, 134);
+  background: url('/images/200.jpg') no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin-top: 15px;
+}
+
+.decoration {
+  background: url('/images/logos-icon.png');
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.decoration2 {
+  background: url('/images/wp\ logo.jpg');
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+}
+
+.decoration3 {
+  background: url('/images/tel.png');
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+}
+
+h1 {
+  background: url('/form.html');
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+}
+
+.audio {
+  background: url('/form.html');
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 1px rgb(204, 204, 204);
+}
+
+.container {
+  background: url('/form.html');
+  width: 1080px;
+  margin: 0 auto;
+
+}
+
+body {
+  background-color: rgb(252, 252, 252);
+  font-family: system-ui, sans-serif
+}
+
+form div {
+  margin-top: 15px;
+}
+
+label,
+input,
+textarea,
+button,
+select,
+p,
+legend {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 5px;
+  background: #3740ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+
+}
+
+textarea {
+  width: 50%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 0 0 10px 4px rgb(177, 177, 177);
+  height: 50px;
+}
+
+input[type=text],
+[type="email"],
+[type="password"],
+[type="date"],
+[type="file"] {
+  padding: 5px;
+  border: 0;
+  margin: 5px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.06);
+}
+
+form {
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.06);
+}
